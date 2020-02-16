@@ -1,0 +1,56 @@
+{
+    "python.pythonPath": "C:\\Users\\gkkr1\\Anaconda3\\pythonw.exe",
+    "python.jediEnabled": false,
+    "python.linting.pylintEnabled": true,
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Monokai",
+    "explorer.openEditors.visible": 50,
+    // ファイル内の単語を入力候補としないようにします。
+    "editor.wordBasedSuggestions": false,
+    // 単語の区切り文字に全角記号、助詞、空白を追記します。
+    "editor.wordSeparators": "`@#$%^&*()-=+[{]}\\|;:'\",.<>/?、。「」（）；：・？＜＞＋－＊・｛｝｜～＆％＄＃”！’にをはがのとも",
+    // ファイルの文字コードを自動認識するようにします。
+    "files.autoGuessEncoding": true,
+    // 好きなフォントサイズ（ピクセル単位）を指定します。
+    "editor.fontSize": 14,
+    // ミニマップを非表示にします。
+    "editor.minimap.enabled": false,
+    // 半角空白をすべて表示します。
+    // "all": いつでも表示
+    // "none": いつでも非表示
+    //  "boundary": 単語間の単一スペースのみ非表示、以外は全て表示
+    "editor.renderWhitespace": "all",
+    // 制御文字列（タブなど）を表示する
+    "editor.renderControlCharacters": true,
+    "workbench.colorCustomizations": {
+        // 制御文字列（タブなど）を含め半角空白の色を明るい灰色（"#aaa"）に指定します。
+        "editorWhitespace.foreground": "#aaa",
+    },
+    // 現在のカーソル行の表示を行番号表示のみへ変更します。
+    // 'none': 表示しない
+    // 'gutter': 行番号エリアのみ表示
+    // 'line': エディタ内のカーソル行のみ表示
+    // 'all': 全てカーソル行で強調表示
+    "editor.renderLineHighlight": "gutter",
+    // 選択範囲の角の丸みを通常通りの丸みの無い状態へ変更します。
+    "editor.roundedSelection": false,
+    // ユーザーが入力や貼り付け、行の移動をしたとき、エディターがインデントを自動的に調整しないようにします。
+    "editor.autoIndent": false,
+
+    // コメントアウトの色を変える
+    "editor.tokenColorCustomizations": {
+        "comments": "#e6e6fa",
+    },
+    "window.zoomLevel": -2,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    
+    // EasyLESSの設定
+    "less.compile": {
+        "compress": true,  // true => remove surplus whitespace
+        "sourceMap": true,  // true => generate srouce maps (.css.map files)
+        "out": false,  // false => DON'T outupt .css files (overridable per-file)
+     },
+    "update.showReleaseNotes": false,
+    "workbench.startupEditor": "newUntitledFile",
+}
