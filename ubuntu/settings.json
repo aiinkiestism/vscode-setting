@@ -1,0 +1,20 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": -2,
+    "go.formatTool": "goimports",
+    "update.showReleaseNotes": false,
+    "dart.flutterSdkPath": "/home/keishi/Android/flutter",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+}
