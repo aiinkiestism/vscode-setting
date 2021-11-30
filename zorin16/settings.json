@@ -1,0 +1,76 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Default Dark+",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "update.showReleaseNotes": false,
+  "workbench.editorAssociations": {
+      "*.vrm": "default"
+  },
+  "emmet.includeLanguages": {
+      "vue": "html"
+  }
+  "files.autoGuessEncoding": true,
+  "editor.wordSeparators": "`@#$%^&*()-=+[{]}\\|;:'\",.<>/?、。「」（）；：・？＜＞＋－＊・｛｝｜～＆％＄＃”！’にをはがのとも",
+  "editor.fontSize": 14,
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "workbench.colorCustomizations": {
+      "editorWhitespace.foreground": "#aaa",
+  },
+  "editor.renderLineHighlight": "gutter",
+  "editor.roundedSelection": false,
+  // "editor.autoIndent": false,
+  // "editor.tokenColorCustomizations": {
+      //     "comments": "#e6e6fa",
+      // },
+  // For gopls
+  "go.useLanguageServer": true,
+  "[go]": {
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true,
+      },
+      // Optional: Disable snippets, as they conflict with completion ranking.
+      "editor.snippetSuggestions": "none",
+  },
+  // Global settings for gopls
+  // https://github.com/golang/tools/blob/master/gopls/doc/settings.md
+  "gopls": {
+      // === Officially supported Settings ===
+
+      // This controls the information that appears in the hover text.
+      "hoverKind": "SynopsisDocumentation",
+      // If true, then completion responses may contain placeholders for function parameters or struct fields.
+      "usePlaceholders": true,
+      // This controls where points documentation for given package in `textDocument/documentLink`.
+      "linkTarget": "pkg.go.dev",
+
+      // === Experimental Settings ===
+
+      // If true, it enables the use of the staticcheck.io analyzers.
+      // Warning: This will significantly increase memory usage.
+      "staticcheck": false,
+      // If false, indicates that the user does not want documentation with completion results.
+      "completionDocumentation": true,
+      // If true, the completion engine is allowed to make suggestions for packages that you do not currently import.
+      "completeUnimported": true,
+      // If true, this turns on the ability to return completions from deep inside relevant entities, rather than just the locally accessible ones.
+      "deepCompletion": true
+  },
+  // have to change when you know
+  // "dart.flutterSdkPath": "/home/aiinkiestism/Android/flutter",
+  "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [
+          80
+      ],
+      "editor.selectionHighlight": false,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": false
+  },
+}
