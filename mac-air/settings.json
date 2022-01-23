@@ -1,0 +1,14 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Default Dark+",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "update.showReleaseNotes": false,
+    "workbench.editorAssociations": {
+        "*.vrm": "default"
+    },
+    "emmet.includeLanguages": {
+        "vue": "html"
+    }
+}
